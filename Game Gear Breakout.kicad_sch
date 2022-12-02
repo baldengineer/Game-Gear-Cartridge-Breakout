@@ -1396,6 +1396,7 @@
   )
 
 
+
   (wire (pts (xy 116.205 36.83) (xy 125.095 36.83))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 0196f6cb-d544-4a39-92b9-eee95f3ecd63)
@@ -1631,6 +1632,10 @@
   (wire (pts (xy 116.205 74.93) (xy 125.095 74.93))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 6f921d79-577b-4d84-85bc-d2c3f9680229)
+  )
+  (wire (pts (xy 41.91 78.105) (xy 50.8 78.105))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 6fbd97d5-41fe-4939-a82a-303d3957a752)
   )
   (wire (pts (xy 41.91 22.225) (xy 50.8 22.225))
     (stroke (width 0) (type default) (color 0 0 0 0))
@@ -23035,6 +23040,22 @@
     (pin "1" (uuid ca00a494-9c60-41ab-b578-d80815839192))
   )
 
+  (symbol (lib_id "power:GND") (at 50.8 78.105 0) (unit 1)
+    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (uuid d5bb216b-8b9e-4512-88d2-27c7f0d7eba6)
+    (property "Reference" "#PWR?" (id 0) (at 50.8 84.455 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (id 1) (at 50.8 82.55 0))
+    (property "Footprint" "" (id 2) (at 50.8 78.105 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 50.8 78.105 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid a3db497c-aff6-4e00-9909-eeecbfb9497a))
+  )
+
   (symbol (lib_id "Device:R_Small") (at 193.04 25.4 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid dab6988a-4ec4-4e4a-9ba7-20f4802e944c)
@@ -23177,6 +23198,9 @@
     )
     (path "/c2adc558-4c11-4b97-a1ae-fa6143634e58"
       (reference "#PWR08") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/d5bb216b-8b9e-4512-88d2-27c7f0d7eba6"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/af780954-8141-44ad-8d3a-ddf814b81c6f"
       (reference "C1") (unit 1) (value "1u") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
