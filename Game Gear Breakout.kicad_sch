@@ -4,6 +4,13 @@
 
   (paper "A4")
 
+  (title_block
+    (title "Game Gear Cart Breakout")
+    (date "2022-12-02")
+    (rev "1")
+    (company "twitch.tv/baldengineer")
+  )
+
   (lib_symbols
     (symbol "Connector:TestPoint" (pin_numbers hide) (pin_names (offset 0.762) hide) (in_bom yes) (on_board yes)
       (property "Reference" "TP" (id 0) (at 0 6.858 0)
@@ -1423,7 +1430,6 @@
       )
     )
   )
-
 
   (junction (at 31.115 98.425) (diameter 0) (color 0 0 0 0)
     (uuid 72a74e76-5b3c-44cf-966a-46ffd82f7956)
