@@ -22828,7 +22828,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 172.72 24.765 270) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 31aebd13-dcb6-46b9-ab66-dfafd589c281)
-    (property "Reference" "TP?" (id 0) (at 177.2921 27.305 0)
+    (property "Reference" "TP4" (id 0) (at 177.2921 27.305 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TestPoint" (id 1) (at 174.7521 27.305 0)
@@ -22998,7 +22998,7 @@
   (symbol (lib_id "power:+5V") (at 172.72 24.765 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 96a90aff-c65c-4fd2-a19a-78d6d574a31a)
-    (property "Reference" "#PWR?" (id 0) (at 172.72 28.575 0)
+    (property "Reference" "#PWR0103" (id 0) (at 172.72 28.575 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (id 1) (at 172.7201 26.035 90)
@@ -23262,7 +23262,7 @@
       (reference "#PWR0102") (unit 1) (value "GND") (footprint "")
     )
     (path "/96a90aff-c65c-4fd2-a19a-78d6d574a31a"
-      (reference "#PWR?") (unit 1) (value "+5V") (footprint "")
+      (reference "#PWR0103") (unit 1) (value "+5V") (footprint "")
     )
     (path "/af780954-8141-44ad-8d3a-ddf814b81c6f"
       (reference "C1") (unit 1) (value "1u") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
@@ -23307,7 +23307,7 @@
       (reference "TP3") (unit 1) (value "TestPoint") (footprint "My Libraries:Harwin-S1751-46-Test-Point")
     )
     (path "/31aebd13-dcb6-46b9-ab66-dfafd589c281"
-      (reference "TP?") (unit 1) (value "TestPoint") (footprint "My Libraries:Harwin-S1751-46-Test-Point")
+      (reference "TP4") (unit 1) (value "TestPoint") (footprint "My Libraries:Harwin-S1751-46-Test-Point")
     )
   )
 )
